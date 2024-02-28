@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}URL for {{ code }}{% endblock %}
+
+{% block main %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Done</title>
+    </head>
+    <body>
+        <h1>Your URL</h1>
+        <h2>{{ code }}</h2>
+    </body>
+</html>
+
+{% endblock %}
